@@ -23,7 +23,8 @@ defmodule Streamdex.MixProject do
     [
       {:hid, github: "lawik/hid"},
       # {:hid, path: "../hid"},
-      {:image, "~> 0.24"}
+      {:image, "~> 0.24"},
+      {:credo, "~> 1.6", only: [:dev, :test], runtime: false}
     ]
   end
 end

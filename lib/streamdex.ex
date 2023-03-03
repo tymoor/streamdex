@@ -5,11 +5,7 @@ defmodule Streamdex do
 
   alias Streamdex.Devices
 
-  @vendor_id 0x0FD9
-  @products %{
-    0x0084 => Devices.StreamdeckPlus,
-    0x0086 => Devices.StreamdeckPedal
-  }
+
 
   def devices do
     HID.enumerate()

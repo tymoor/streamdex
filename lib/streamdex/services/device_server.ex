@@ -1,4 +1,4 @@
-defmodule Streamdex.Device do
+defmodule Streamdex.Services.DeviceServer do
   use GenServer
 
   def start_link(options) do
